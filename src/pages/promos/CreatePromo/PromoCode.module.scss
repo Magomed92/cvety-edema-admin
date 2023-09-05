@@ -1,0 +1,9 @@
+.root {
+  margin-top: 100px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 650px 350px;
+  grid-column-gap: 50px;
+}

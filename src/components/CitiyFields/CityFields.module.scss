@@ -1,0 +1,33 @@
+.root {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  :global {
+    display: flexbox;
+    .btnSaved {
+      width: 120px;
+      height: 40px;
+      border-radius: 45px;
+      border: 0;
+      background-color: #25c6c3;
+      color: white;
+      cursor: pointer;
+    }
+    .btnAdded {
+      width: 120px;
+      height: 40px;
+      border-radius: 45px;
+      border: 0;
+      background-color: #a8aebc;
+      color: white;
+      cursor: pointer;
+    }
+
+    .MuiPaper-root {
+      padding: 30px;
+      border-radius: 16px !important;
+      border: none !important;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    }
+  }
+}

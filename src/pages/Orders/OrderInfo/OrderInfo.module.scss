@@ -1,0 +1,26 @@
+.root {
+  margin-top: 100px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1000px 450px;
+  grid-column-gap: 50px;
+}
+.PENDING {
+  color: orange !important;
+}
+.COMPLETED {
+  color: rgb(12, 197, 12) !important;
+}
+.REFUNDED {
+  color: rgb(141, 14, 14) !important;
+}
+.CANCELED {
+  color: rgb(253, 54, 28) !important;
+}
+.status {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}

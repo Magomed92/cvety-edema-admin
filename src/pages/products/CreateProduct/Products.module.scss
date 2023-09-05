@@ -1,0 +1,52 @@
+.root {
+  margin-top: 100px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 650px 350px;
+  grid-column-gap: 50px;
+}
+
+.uploadFiles {
+  display: flex;
+  justify-content: space-between;
+  img {
+    height: 200px;
+  }
+  :global {
+
+    .dropzone {
+      display: flex;  
+      align-items: center;
+      justify-content: center;
+      border: 1px dotted gray;
+      cursor: pointer;
+
+    }
+  }
+}
+
+.thumbInner {
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+}
+.thumb {
+  position: relative;
+  display: inline-flex;
+  border-radius: 2px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 8px;
+  margin-right: 36px;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  box-sizing: border-box;
+  button {
+    position: absolute;
+    z-index: 2;
+    top: -15px;
+    right: -25px;
+  }
+}

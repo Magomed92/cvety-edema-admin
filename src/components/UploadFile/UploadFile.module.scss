@@ -1,0 +1,41 @@
+
+
+.uploadFiles {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  section {
+    .img {
+      width: 150px;
+      height: 100px;
+      position: relative;
+      margin-top: 20px;
+      img {
+        width: 80%;
+        height: 100%;
+      }
+      .close_icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        button {
+          padding: 0;
+        }
+      }
+    }
+
+  }
+
+  :global {
+    .dropzone {
+      display: flex;  
+      align-items: center;
+      justify-content: center;
+      border: 1px dotted gray;
+      cursor: pointer;
+
+    }
+  }
+}
